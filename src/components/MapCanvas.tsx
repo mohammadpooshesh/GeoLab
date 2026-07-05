@@ -16,15 +16,17 @@ drawClasses.ATTRIBUTION = "maplibregl-ctrl-attrib"
 const ACCENT = "#5E9FE8"
 const DARK_BG = "#191919"
 const LIGHT_BG = "#F6F5F4"
-const ATTRIBUTION =
-	"\u00a9 OpenStreetMap contributors \u00a9 CARTO"
+const ATTRIBUTION = "© OpenStreetMap contributors © CARTO"
 
 function tileUrls(theme: string): string[] {
 	const variant = theme === "dark" ? "dark_all" : "light_all"
 	return ["a", "b", "c"].map(
 		(sub) =>
-			`https://${sub}.basemaps.cartocdn.com/${variant}/` +
-			"{z}/{x}/{y}@2x.png",
+			"https://" +
+			sub +
+			".basemaps.cartocdn.com/" +
+			variant +
+			"/{z}/{x}/{y}@2x.png",
 	)
 }
 
@@ -247,11 +249,11 @@ export default function MapCanvas() {
 	return (
 		<div className="map-wrap">
 			<div ref={containerRef} className="map-container" />
-			{busy && <div className="map-badge">Computing\u2026</div>}
+			{busy && <div className="map-badge">Computing…</div>}
 			{error && <div className="map-toast">{error}</div>}
 			{drawn.features.length === 0 && (
 				<div className="map-hint">
-					Draw a shape with the toolbar \u2014 or click Sample to load a demo
+					Draw a shape with the toolbar — or click Sample to load a demo
 					scene.
 				</div>
 			)}
