@@ -8,7 +8,7 @@ GeoLab is a browser-only playground for GIS geometry operations — what **regex
 
 ### 👉 [mohammadpooshesh.github.io/GeoLab](https://mohammadpooshesh.github.io/GeoLab/) 👈
 
-[![GeoLab — live screenshot](https://image.thum.io/get/width/1400/crop/900/wait/8/https://mohammadpooshesh.github.io/GeoLab/)](https://mohammadpooshesh.github.io/GeoLab/)
+[![GeoLab — live screenshot](https://image.thum.io/get/viewportWidth/1920/width/1400/wait/8/https://mohammadpooshesh.github.io/GeoLab/)](https://mohammadpooshesh.github.io/GeoLab/)
 
 *Click the image to open the app — then hit **Sample** and pick **Buffer** to see the live preview.*
 
