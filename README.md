@@ -4,6 +4,14 @@
 
 GeoLab is a browser-only playground for GIS geometry operations — what **regex101** is for regular expressions and **SQL Fiddle** is for SQL. Draw shapes on a real map, pick an operation, drag a slider, and watch the result update **live**. No Run button, no server, no installation for end users.
 
+## 🚀 Live demo
+
+### 👉 [mohammadpooshesh.github.io/GeoLab](https://mohammadpooshesh.github.io/GeoLab/) 👈
+
+[![GeoLab — live screenshot](https://image.thum.io/get/width/1400/crop/900/wait/8/https://mohammadpooshesh.github.io/GeoLab/)](https://mohammadpooshesh.github.io/GeoLab/)
+
+*Click the image to open the app — then hit **Sample** and pick **Buffer** to see the live preview.*
+
 ## ✨ Features
 
 - **Live preview** — every edit (drawing, moving a vertex, dragging a slider) recomputes the result instantly, debounced at 120 ms.
@@ -84,6 +92,8 @@ A workflow at `.github/workflows/deploy.yml` builds the app and publishes `dist/
 ## 🇮🇷 درباره پروژه
 
 جئولب یک آزمایشگاه تعاملی برای عملیات هندسی GIS است که کاملاً در مرورگر اجرا میشود. شکل بکشید، عملیات را انتخاب کنید، اسلایدر را تکان دهید و نتیجه را همان لحظه روی نقشه ببینید — همراه با انیمیشن، تایملاین، و تولید خودکار کد معادل در Turf.js، Shapely و PostGIS. همه محاسبات در Web Worker انجام میشود تا رابط کاربری همیشه روان بماند.
+
+🔗 نسخه آنلاین: [mohammadpooshesh.github.io/GeoLab](https://mohammadpooshesh.github.io/GeoLab/)
 
 ## 📄 License
 
